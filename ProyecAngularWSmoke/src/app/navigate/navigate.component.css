@@ -1,0 +1,15 @@
+.header {
+  background-image: url(C:\Users\andrea.anton.garcia\AreadeTrabjoCsCode\WhiteSmokeProyectoTienda\src\assets\imagen.jpg);
+    background: no-repeat center;
+    background-size: cover;
+
+  }
+  .header .navbar {
+    background-color: transparent !important;
+  }
+  .navbar-brand{
+    margin-left: 20px;
+    size: 20px;
+    text-shadow: 2px 8px 6px rgb(246, 243, 243), 0px -5px 35px rgba(255,255,255,0.3);
+    color:white;
+  }

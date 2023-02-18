@@ -1,0 +1,57 @@
+  
+.pantalla{
+    justify-content:space-around;
+    background-repeat:no-repeat;
+    background-size:cover ;
+  }
+  body{
+      
+      justify-content:space-around;
+      background-repeat:no-repeat;
+      background-size:cover ;
+    
+    }
+    h1 {
+      margin-top: 10px;
+      font-size: 3em;
+      font-weight: normal;
+      text-align: center;
+      text-shadow: 2px 2px 0 #2e0373, 4px 4px 0 #5aaaf0;
+      color: white;
+      font-family: 'Lobster', cursive;
+      font-size: 5em;
+      letter-spacing: 0px;
+      word-spacing: 0px;  
+      font-weight: normal;
+      font-variant: normal;
+      text-transform: none;
+    }
+  
+    h2 {
+      background-color: transparent !important;
+      margin-top: 40px;
+      font-size: 3.5em;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: normal;
+      text-align: center;
+      text-shadow:2px 2px 2px #1814FD;
+      color:black;
+    }
+    h4{
+        background-color: transparent !important;
+        margin-top: 40px;
+        font-size: 3.5em;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: normal;
+        text-align: center;
+        text-shadow:2px 2px 2px #1814FD;
+        color:black;
+    
+      }
+    footer{
+      margin-top:50px;
+    }
+    h6{
+      color: aqua;
+    }
+  

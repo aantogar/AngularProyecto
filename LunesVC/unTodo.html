@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+
+.todo{
+    justify-content: center;
+    
+}
+
+.primero{
+    width: 620px;
+    height: 800px;
+    background-color: rgb(248, 173, 213);
+    margin: auto;
+    float: left;
+}
+
+.titulo{
+text-align: center;
+background-color: black;
+color: white;
+}
+.mas{
+    width: 620px;
+    height: 800px;
+    background-color: rgb(248, 173, 213);
+    margin: auto;
+    float: right;
+
+}
+.titulo{
+    text-align: center;
+    background-color: rebeccapurple;
+    color: white;
+
+}
+
+.menu{
+background-color: gb(248, 173, 213);
+text-align: left;
+margin-top: 10px;
+font-size: 20px;
+color: rgb(57, 48, 185);
+text-decoration:solid;
+}
+.seleccion{
+background-color:rgb(255, 145, 204);
+color: #c000ff;
+font-size: 20px;
+text-decoration: none;
+margin-left: 25px;
+
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="todo">
+    <div class="primero">
+       <h3 div class="titulo", style="font-size: xx-large">Indique tarea a realizar</h3> 
+       <ul contenteditable="true">
+        <li></li>
+        <li></li>
+       </ul>
+    </div>
+    <div class="mas">
+     <h3 div class="titulo", style="font-size: xx-large">Indique más tarea a realizar</h3> 
+     <nav class="menu">
+        <ul>
+          <li><a href="https://www.youtube.com/@recursosformacion">Canal de Youtube RF</a></li>
+          <li><a href="https://recursosformacion.com">Recursosformacion</a></li>
+          <li><a href= "https://recursosformacion.com/registro-2">Registro RF</a></li>
+        </ul>
+        <form action="PEDIDO.php" name="seleccion" method="post">
+        <select class="seleccion" name="ELEGIR" value="ELEGIR" onchange="document.location.href=this.value">
+        <option selected disabled>ELEGIR</option>
+        <option value="https://recursosformacion.com/utilidades">Utilidades</option>
+        <option value="https://recursosformacion.com/cursos">Cursos</option>
+        <option value="https://recursosformacion.com/formador/">Formador</option>
+        </select>
+        </form>
+        </nav>​
+     </div> 
+    </div>
+</body>
+</html>

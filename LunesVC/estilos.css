@@ -1,0 +1,39 @@
+#menu,
+#seccionuno,
+#lateral{
+    float:left;
+    border:3px double;
+    margin-left:0.3em;
+    padding: 0.3em;
+}
+#menu{
+    width: 20%;
+    min-width: 10em;
+}
+
+#seccionuno{
+    width: 40%;
+}
+
+footer{
+    clear:both;
+    background-color:black;
+    color:white;
+}
+nav,
+section,
+aside{
+    float: left;
+    border: 3px double;
+    margin-left: 0.3em;
+    padding: 0.3em;
+}
+nav{
+    width:20%;
+}
+section{
+    width: 40%;
+}
+aside{
+    width: 30%;
+}

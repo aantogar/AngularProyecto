@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+</script>
+</head>
+   <style>
+.container{
+    width: 847px; height: 100vh; background: rgba(120,159,12,1); background: -moz-linear-gradient(left, rgba(120,159,12,1) 0%, rgba(255,225,0,1) 100%); background: -webkit-gradient(left top, right top, color-stop(0%, rgba(120,159,12,1)), color-stop(100%, rgba(255,225,0,1))); background: -webkit-linear-gradient(left, rgba(120,159,12,1) 0%, rgba(255,225,0,1) 100%); background: -o-linear-gradient(left, rgba(120,159,12,1) 0%, rgba(255,225,0,1) 100%); background: -ms-linear-gradient(left, rgba(120,159,12,1) 0%, rgba(255,225,0,1) 100%); background: linear-gradient(to right, rgba(120,159,12,1) 0%, rgba(255,225,0,1) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#789f0c', endColorstr='#ffe100', GradientType=1 );
+ }
+ul{
+    list-style:none;
+    padding:0.5em;
+}
+ul li{
+    float: left;
+    width: 6em;
+    padding: o.1em 0.3em;
+    border-right: inset;
+}
+ul li:last-child{
+    border:none;
+}
+h1{
+    text-shadow: 4px 4px 2px rgba(150,150,150,1);
+}
+label{
+    display:inline-block;
+    width: 8em;
+    text-align: right;
+}
+form{
+    width: 50em;
+    height: 30em;
+    padding: 1em;
+    background-color: #ccc;
+}
+fieldset{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+input{
+    border-style:solid;
+    border-width: medium;
+}
+input[type="text"]{
+    width: 25em;
+    border-style: dotted;
+}
+input:valid{
+    border-color:blue;
+}
+input:requiered{
+    border-color:black;
+    border-style:solid;
+}
+
+input:invalid{
+    border-color:red;
+    border-width: 3px;
+}
+.bordesRedondos{
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -border-radius:10px;
+    -webkit-box-shadow: inset 7px 7px 5px 0px rgba(50,50,50,0.75)
+    -moz-box-shadow:inset 7px 7px 5px 0px rgba(50,50,50,0.75)
+    -box-shadow: inset 7px 7px 5px 0px rgba(50,50,50,0.75)
+    
+}
+#sexo *{
+    text-align: left;
+}
+#sexo input[type="radio"]:before{
+    content: attr(data-label);
+    margin: -3px -70px;
+    vertical-align: top;
+    white-space: nowrap;
+    display: inline-block;
+}
+#sexo input[type="radio"]:checked{
+    font-size: 20px;
+}
+#aficiones input:checked{
+    font-size: 20px;
+}
+
+
+
+ </style>
+<section>
+    <article class="container">
+        <header>
+        <h1 div class="titulo", style="font-size: xx-large">Las pseudo clases en acción</h1> 
+    </header>
+   <nav>
+        <ul>
+            <li>
+                Menú 1
+            </li>
+            <li>
+                Menú 2
+            </li>
+            <li>
+                ....
+            </li>
+        </ul>
+   </nav>
+   <form id="formulario" class="bordesRedondos" name="formulario">
+    <fieldset>
+    <br>
+        <legend>Nombre</legend>
+        <label for="nombre">Nombre de cliente</label>
+        <input type="text" name="nombre" placeholder="Indique el apellido"required/>
+   </br>
+   <br>
+        <legend>Calle</legend>
+        <label for="calle">Calle</label>
+        <input type="text" name="calle" placeholder="Indique su dirección"required/>
+    </br>
+    <br>
+    <legend>Ciudad</legend>
+    <label for="ciudad">Ciudad</label>
+    <input type="text" name="ciudad" value="Madrid" default="Madrid"/>
+    </br>
+   </fieldset>
+    <fieldset id="sexo">
+        <legend>Sexo</legend>
+        <input type="radio" name="sexo" value="M" data-label="Masculino"required/>
+        <br>
+        <input type="radio" name="sexo" value="F" data-label="Femenino"required/>
+        <br>
+    </fieldset>
+    <fieldset id="aficiones">
+        <legend>Aficiones</legend>
+
+        <br>
+        <input type="checkbox" name="v1"
+        value="Baile"><span>Baile</span>
+        <br>
+        <input type="checkbox" name="v2"
+        value="Boxeo"><span>Boxeo</span>
+        <br>
+        <input type="checkbox" name="v3"
+        value="Pocker"><span>Pocker</span>
+        <br>
+        <br>
+
+    </fieldset>
+
+    <input type="submit" value="Enviar"/>
+</form>
+</artcle>
+</section>
+<aside>
+    <p>Enlace publicitario</p>
+</aside>
+        
+
