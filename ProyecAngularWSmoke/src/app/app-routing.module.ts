@@ -10,10 +10,13 @@ const routes: Routes = [
  {path:'categorias', component:ProductFormComponent},
  {path:'listado', component:ProductListComponent},
  {path: 'update/:id', component:UpdateComponent},
+ {path:'dropdown', component:NavigateComponent},
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
+  
 })
+
 export class AppRoutingModule { }

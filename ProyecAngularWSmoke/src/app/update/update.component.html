@@ -1,14 +1,14 @@
 <div class="container mt-5 mb-5">
   <div class="row">
     <div class="col-sm-12">
-      <form>
+      <form >
           <h2>Editar categoría</h2>
           <label for="nombre">Nombre de la categoría</label>
-          <input class = "form-control" [(ngModel)]="categoria.cat_nombre" type="text" id="nombre" name="nombre" required>    
+          <input type="reset" class = "form-control" [(ngModel)]="categoria.cat_nombre" type="text" id="nombre" name="nombre" required>    
           <label for="descripcion">Descripción de la categoría</label>
-          <input class = "form-control" [(ngModel)]="categoria.cat_descripcion" type="text" id="descripcion" name="descripcion" required>  
-          <button class="btn btn-success confirm-button buttons" (click)="modificar()">Enviar</button>
-          <button routerLink="/categorias" class="btn btn-primary confirm-button buttons">Cancelar</button>
+          <input type="reset" class = "form-control" [(ngModel)]="categoria.cat_descripcion" type="text" id="descripcion" name="descripcion" required>  
+          <button class="btn btn-success confirm-button buttons"  (click)="modificar()">Enviar</button>
+          <button routerLink="/listado" class="btn btn-primary confirm-button buttons">Cancelar</button>
       </form>      
     </div>
   </div>

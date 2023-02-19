@@ -41,7 +41,10 @@ export class UpdateComponent implements OnInit {
       if(stats == 200){
         console.log("Modificado");
       }
+      this.router.navigate(['listado'])
     })
-    this.router.navigate(['listado'])
+    
+
   }
+  
 }
