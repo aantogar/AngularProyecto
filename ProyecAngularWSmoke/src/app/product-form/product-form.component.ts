@@ -28,8 +28,6 @@ constructor(private conexion: ServiceService, private rout: Router){}
     
   }
   onSubmit() {
-
-  
   console.log(this.categoria);
     this.guardarCategoria();
     this.rout.navigate(['listado'])

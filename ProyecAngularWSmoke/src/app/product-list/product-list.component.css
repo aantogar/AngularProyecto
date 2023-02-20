@@ -8,7 +8,7 @@ h2{
     text-decoration: none;
     font-style: normal;
     font-variant: normal;
-    margin-top: 30px;
+    margin-top: 10px;
     text-transform: none;
     margin-left: 190px;
     text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px, 2px 2px 2px rgba(108,255,248,0), 2px 2px 2px rgba(108,255,248,0);
@@ -21,7 +21,7 @@ th{
     font-family:'Oswald', sans-serif !important;
     font-size: 18px !important;
     color:white;
-    margin-left: 18px;
+    margin-left: 40px;
     text-shadow: 3px 5px 2px #11ddad, 2px 2px 2px rgb(238, 243, 243);
 }
 
@@ -33,7 +33,7 @@ td{
 
 thead{
     background-color: transparent !important;
-    align-items: center;
+    margin-left: 40 px;
 }
 
 table{

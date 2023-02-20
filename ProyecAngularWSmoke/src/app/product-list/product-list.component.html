@@ -3,8 +3,8 @@
 <table >
 <thead >
    <tr>
-      <th>IDENTIFICADOR </th>
-      <th>NOMBRE CATEGORIA</th>
+      <th>ID </th>
+      <th>NOMBRE</th>
       <th>DESCRIPCIÓN DE LA CATEGORIA</th>
    </tr>
 </thead>
@@ -14,7 +14,7 @@
    <td>{{categoria.id_categoria}}</td>
    <td>{{categoria.cat_nombre}}</td>
    <td>{{categoria.cat_descripcion}}</td>
-   <td><button class="btn btn-success ml-5" (click)="deleteCategoria(categoria.id_categoria)"> ELIMINAR</button></td>
+   <td><button class="btn btn-success ml-5" (click)="mostrarDialogo(categoria.id_categoria)"> ELIMINAR</button></td>
    <td><button class="btn btn-danger ml-5" (click)="updateCategoria(categoria.id_categoria)">EDITAR</button></td>
  
  </tr>

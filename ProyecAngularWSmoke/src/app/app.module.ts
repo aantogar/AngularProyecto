@@ -8,6 +8,11 @@ import { ProductFormComponent } from './product-form/product-form.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import {UpdateComponent} from './update/update.component';
 import { NavigateComponent } from './navigate/navigate.component';
+import { DialogoConfirmacionComponent } from './dialogo-confirmacion/dialogo-confirmacion.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatDialogModule } from '@angular/material/dialog';
+import { MatButtonModule } from '@angular/material/button';
+
 
 @NgModule({
   declarations: [
@@ -15,7 +20,8 @@ import { NavigateComponent } from './navigate/navigate.component';
     ProductFormComponent,
     ProductListComponent,
     UpdateComponent,
-    NavigateComponent
+    NavigateComponent,
+    DialogoConfirmacionComponent,
   ],
 
   imports: [
@@ -23,8 +29,14 @@ import { NavigateComponent } from './navigate/navigate.component';
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
+    MatDialogModule, 
+    BrowserAnimationsModule, 
+    MatButtonModule, 
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [
+    DialogoConfirmacionComponent
+  ]
 })
 export class AppModule { }
